@@ -20,7 +20,7 @@ const ProductDetail = () => {
     <Container>
       <Row>
         <Col>
-          <img src={product?.img}/>
+          <img src={product?.img} alt=''/>
         </Col>
         <Col>
           <div>{product?.title}</div>
