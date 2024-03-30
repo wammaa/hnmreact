@@ -45,6 +45,9 @@
   display:flex;
   justify-content: flex-end;
 }
+.detail-img img{
+  width:450px;
+}
 .detail-button{
   margin-top:20px;
   width:100%;
