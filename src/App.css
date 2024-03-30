@@ -109,3 +109,14 @@
   display:flex;
   justify-content: space-between;
 }
+.search-box2{
+  display:flex;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  margin: 20px;
+}
+.search-box2 input{
+  border:none;
+  width:100%
+}

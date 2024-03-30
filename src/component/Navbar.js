@@ -60,6 +60,10 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
             <input type="text" placeholder='제품검색' onKeyPress={(event)=>search(event)}/>
         </div>
       </div>
+      <div className="search-box2 hide">
+            <FontAwesomeIcon icon={faSearch}/>
+            <input type="text" placeholder='제품검색' onKeyPress={(event)=>search(event)}/>
+        </div>
     </div>
   )
 }
